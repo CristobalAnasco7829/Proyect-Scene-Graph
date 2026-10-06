@@ -1,7 +1,7 @@
 # Proyect-Scene-Graph
 
 An interactive 3D graphics application developed in **Python** that renders a hierarchical 3D articulated character using a **Scene Graph (Scenegraph)** architecture. Implements an **OpenGL** rendering pipeline via **Pyglet** with custom GLSL shaders to articulate limbs and switch camera perspective.
-
+##
 Aplicación gráfica e interactiva desarrollada en **Python** que renderiza un personaje articulado tridimensional utilizando una jerarquía de **Grafo de Escena (Scenegraph)**. Implementa un pipeline de renderizado en **OpenGL** con **Pyglet** y shaders personalizados en GLSL para articular extremidades y alternar dinámicamente entre distintas poses dramáticas y perspectivas de cámara.
 
 ##  Academic Context
@@ -10,7 +10,7 @@ Aplicación gráfica e interactiva desarrollada en **Python** que renderiza un p
 * **Course:** Modelación y computación gráfica para ingenieros
 * **Purpose:** Individual project
 * **Base Repository:** [cc3501-computer-graphics](https://github.com/PLUMAS-research/cc3501-computer-graphics)
-
+##
 * **Institución:** Universidad de Chile
 * **Curso:** Modelación y computación gráfica para ingenieros
 * **Propósito:** Proyecto individual
@@ -23,7 +23,7 @@ Aplicación gráfica e interactiva desarrollada en **Python** que renderiza un p
 * **3D Shader-Based Rendering:** Programmable pipeline with GLSL 330 core shaders (vertex and fragment) for rendering 3D geometries (`.off`).
 * **Adaptive Cameras:** Dynamic configuration of view matrices (`lookAt`) and perspective projections designed to emphasize the drama of each pose.
 
-
+##
 * **Grafo de Escena Jerárquico:** Modelado modular del personaje (cabeza, torso, caderas, extremidades y detalles faciales) conectando nodos de posición, rotación y escalamiento.
 * **Poses Cinemáticas Dinámicas:** Transformaciones matriciales compuestas (`tr.matmul`, rotaciones en ejes X/Y/Z y traslaciones) para definir las distintas posturas del personaje.
 * **Renderizado 3D con Shaders:** Pipeline programable con shaders en GLSL 330 core (*vertex* y *fragment*) para la iluminación básica y renderizado de geometrías (`.off`).
@@ -33,5 +33,5 @@ Aplicación gráfica e interactiva desarrollada en **Python** que renderiza un p
 
 ## Interactive Features
 | <kbd>SPACE</kbd> | Cycles through 4 dramatic poses and adjusts the camera perspective for each scene. 
-
+##
 | <kbd>ESPACIO</kbd> | Alterna cíclicamente entre las 4 poses dramáticas y cambia la posición de la cámara según la escena. 
